@@ -1,0 +1,49 @@
+.user-list {
+    width: 500px;
+}
+
+.user-list h2 {
+    margin-bottom: 10px;
+}
+
+.user-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-list li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: none;
+}
+
+.user-list .user-card {
+    flex-grow: 1;
+}
+
+.user-list .user-actions {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.user-list .user-actions .del{
+    background-color: rgb(110, 18, 18);
+}
+
+.user-list button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 80%;
+}
